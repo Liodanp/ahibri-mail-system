@@ -14,7 +14,7 @@ SendMail est une API légère et sécurisée permettant d’envoyer des e-mails 
 
 ---
 
-##🔧 Configuration
+## 🔧 Configuration
 
 SMTP_HOST=smtp.example.com
 SMTP_PORT=465
