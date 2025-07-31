@@ -1,10 +1,11 @@
-require('dotenv').config();
+import dotenv from 'dotenv'
 const express = require('express');
 const nodemailer = require('nodemailer');
 const crypto = require('crypto');
 const { v4: uuidv4 } = require('uuid');
 
 const app = express();
+dotenv.config()
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
