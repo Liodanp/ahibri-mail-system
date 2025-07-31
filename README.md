@@ -14,9 +14,19 @@ SendMail est une API légère et sécurisée permettant d’envoyer des e-mails 
 
 ---
 
+##🔧 Configuration
+
+SMTP_HOST=smtp.example.com
+SMTP_PORT=465
+SMTP_USER=your@email.com
+SMTP_PASS=your_password
+TOKEN_SECRET=some_long_random_string
+APP_URL=https://ton-site.com
+
+
 ## 📦 Installation
 
 ```bash
 git clone https://github.com/Liodanp/ahibri-mail-system.git
-cd sendmail
+cd ahibri-mail-system
 npm install
